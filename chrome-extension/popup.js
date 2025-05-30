@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
       attentionScoreDiv.style.color = 'gray';
       return;
     }
-    const apiUrl = `https://student-attention.onrender.com/api/db-attention-score?meeting_id=${encodeURIComponent(meetingId)}&user_email=${encodeURIComponent(userEmail)}`;
+    const apiUrl = `https://classguard.onrender.com/api/db-attention-score?meeting_id=${encodeURIComponent(meetingId)}&user_email=${encodeURIComponent(userEmail)}`;
     fetch(apiUrl)
       .then(resp => resp.json())
       .then(data => {

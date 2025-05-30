@@ -1,5 +1,5 @@
 let captureInterval = null;
-const BACKEND_URL = 'https://student-attention.onrender.com/api/images';
+const BACKEND_URL = 'https://classguard.onrender.com/api/images';
 let mediaStream = null;
 let lastMeetTabId = null;
 

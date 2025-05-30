@@ -1,6 +1,6 @@
 // content.js: Improved user identification for Google Meet, with focus on attention detection
 
-const BACKEND_URL = 'https://student-attention.onrender.com/api/images';
+const BACKEND_URL = 'https://classguard.onrender.com/api/images';
 let mediaStream = null;
 let captureInterval = null;
 let debugMode = true;
